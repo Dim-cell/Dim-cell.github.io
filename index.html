@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- 声明文档类型为HTML5，必须放在第一行 -->
+<html lang="zh-CN">
+<!-- html根标签：页面所有内容的容器，lang="zh-CN" 指定页面语言为简体中文 -->
+<head>
+    <!-- head头部：存放页面配置信息，不会在页面可视区域显示 -->
+    <meta charset="UTF-8">
+    <!-- 编码格式：UTF-8 支持所有中文/英文/特殊符号，避免乱码，必写 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 适配手机端：让页面在手机上正常显示，不会缩放变形 -->
+    <title>我的第一个HTML页面</title>
+    <!-- 页面标题：显示在浏览器标签栏上 -->
+    <style>
+        /* 内嵌简单样式：美化页面，基础必用 */
+        body { margin: 20px; font-family: 微软雅黑; }
+        h1 { color: #2c3e50; }
+        p { line-height: 1.8; color: #333; }
+        a { color: #007bff; text-decoration: none; }
+        a:hover { color: #0056b3; text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <!-- body主体：页面所有【可视内容】都写在这里，核心区域 -->
+    <h1>✅ 这是一级标题（最大标题）</h1>
+    <h2>这是二级标题</h2>
+    <h3>这是三级标题</h3>
+
+    <p>这是第一段普通文本段落，HTML的核心就是用标签包裹内容，实现结构化展示 💡</p>
+    <p>这是第二段文本，支持<strong>加粗文字</strong>、<em>斜体文字</em>、<u>下划线文字</u></p>
+
+    <h3>🔗 超链接示例</h3>
+    <a href="https://www.baidu.com" target="_blank">点击打开百度（新窗口）</a>
+
+    <h3>🖼️ 图片示例</h3>
+    <img src="https://img.icons8.com/color/64/000000/html-5--v1.png" alt="HTML5图标" width="100">
+    <!-- alt：图片加载失败时显示的文字，SEO必备 -->
+
+    <h3>📋 无序列表</h3>
+    <ul>
+        <li>HTML 负责页面结构</li>
+        <li>CSS 负责页面样式</li>
+        <li>JavaScript 负责页面交互</li>
+    </ul>
+
+    <h3>🔢 有序列表</h3>
+    <ol>
+        <li>学习HTML基础标签</li>
+        <li>学习CSS美化页面</li>
+        <li>学习JS实现功能</li>
+    </ol>
+</body>
+</html>
